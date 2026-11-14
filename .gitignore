@@ -1,0 +1,22 @@
+# Large binaries - never commit driver packages or installers
+*.exe
+*.msi
+*.7z
+*.zip
+
+# Driver payload copies
+pkg*/
+patch-*/
+driver-backup*/
+nv_dispsi*/
+nv_dispi*/
+
+# Generated reports / logs
+*.log
+diagnose-report.txt
+*.txt
+
+# OS noise
+Thumbs.db
+desktop.ini
+.DS_Store
