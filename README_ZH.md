@@ -1,3 +1,6 @@
+[English](README.md)
+
+
 # 在同一台 Windows 電腦上同時使用「遊戲 GeForce 卡」與「RTX 專業卡」
 
 ![status](https://img.shields.io/badge/status-working-brightgreen)
@@ -320,3 +323,5 @@ Windows Update 或驅動重新整理都會悄悄把它還原。
 5. 改安裝一個版本號與 HP 套件相同的 GeForce 套件後，兩張卡就一起跑在同一份核心二進位上了。
 
 實際的指令輸出請看 `docs/EVIDENCE.md`。
+
+整個項目由`Deepseek V4.1 Flash 1017`透過`Deepseek Harness`自行探索並執行相關指令。

@@ -1,3 +1,5 @@
+[中文](README_ZH.md)
+
 # Gaming GeForce + RTX Workstation Card in One Windows PC
 
 ![status](https://img.shields.io/badge/status-working-brightgreen)
@@ -338,3 +340,5 @@ If your professional card is an OEM variant and no matching driver pair exists:
    cards start on the same kernel binary.
 
 See `docs/EVIDENCE.md` for the actual command output.
+
+The entire project was developed by `Deepseek V4.1 Flash 1017`, which explored and executed relevant commands through `Deepseek Harness`.
