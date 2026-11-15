@@ -16,10 +16,12 @@ Everything here was reproduced on real hardware:
 | | Card A | Card B |
 |---|---|---|
 | Model | NVIDIA GeForce RTX 4070 Ti Super | NVIDIA RTX 4000 Ada Generation (**HP OEM**) |
-| Silicon | AD103, 66 SM, 16 GB | AD104, 48 SM, 20 GB |
+| Silicon | AD103, 66 SM, 16 GB | AD104(*), 48 SM, 20 GB |
 | Role | games, display output | CUDA, rendering, AI |
 | Slot | CPU PCIe x16 | chipset PCIe x4 |
 | Final driver | GeForce **621.14** | HP RTX Enterprise **621.14** |
+
+(*) Later discovery: According to GPU-Z, the core code name of this graphics card is AD103, not AD104. The following operations may not be applicable to the RTX 4000 Ada Generation of AD104.
 
 ---
 
