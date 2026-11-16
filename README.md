@@ -22,6 +22,7 @@ Everything here was reproduced on real hardware:
 | Final driver | GeForce **621.14** | HP RTX Enterprise **621.14** |
 
 <del>(\*) Later discovery: According to GPU-Z, the core code name of this graphics card is AD103, not AD104. The following operations may not be applicable to the RTX 4000 Ada Generation of AD104.</del>
+
 (\*) Major discovery: In MSI Afterburner, this core is named AD104GL-A (the RTX 4070 Ti Super uses AD103-A); in AIDA64, it is named AD104GL. Based on the current evidence alone, this is sufficient to refute the claim that the core of the RTX 4000 Ada Generation is AD103.
 
 ---

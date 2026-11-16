@@ -22,6 +22,7 @@
 | 最終驅動 | GeForce **621.14** | HP RTX Enterprise **621.14** |
 
 <del> (\*)後期發現：透過 GPU-Z，這張顯示卡的核心代號是 AD103，並非 AD104，下列操作可能並不適用於 AD104 的 RTX 4000 Ada Generation。</del>
+
 (\*)重大發現：在 MSI Afterburner 中，這款核心被命名為 AD104GL-A（ RTX 4070 Ti Super 是 AD103-A ）；在 AIDA64 中，這款核心被命名為 AD104GL。單憑現在的證據，足以推翻 RTX 4000 Ada Generation 的核心是 AD103 的說法。
 
 ---
