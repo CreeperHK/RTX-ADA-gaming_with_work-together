@@ -1,4 +1,4 @@
-[English](README.md)
+[English](README.md) | 中文
 
 
 # 在同一台 Windows 電腦上同時使用「遊戲 GeForce 卡」與「RTX 專業卡」
@@ -16,12 +16,13 @@
 | | 卡 A | 卡 B |
 |---|---|---|
 | 型號 | NVIDIA GeForce RTX 4070 Ti Super | NVIDIA RTX 4000 Ada Generation（**HP OEM 版**） |
-| 核心 | AD103，66 SM，16 GB | AD104(*)，48 SM，20 GB |
+| 核心 | AD103，66 SM，16 GB | AD104(\*)，48 SM，20 GB |
 | 用途 | 遊戲、螢幕輸出 | CUDA、渲染、AI |
 | 插槽 | CPU 直連 PCIe x16 | 晶片組 PCIe x4 |
 | 最終驅動 | GeForce **621.14** | HP RTX Enterprise **621.14** |
 
-(*)後期發現：透過GPU-Z，這張顯示卡的核心代號是AD103，並非AD104，下列操作可能並不適用於AD104的RTX 4000 Ada Generation。
+<del> (\*)後期發現：透過 GPU-Z，這張顯示卡的核心代號是 AD103，並非 AD104，下列操作可能並不適用於 AD104 的 RTX 4000 Ada Generation。</del>
+(\*)重大發現：在 MSI Afterburner 中，這款核心被命名為 AD104GL-A（ RTX 4070 Ti Super 是 AD103-A ）；在 AIDA64 中，這款核心被命名為 AD104GL。單憑現在的證據，足以推翻 RTX 4000 Ada Generation 的核心是 AD103 的說法。
 
 ---
 

@@ -1,4 +1,4 @@
-[中文](README_ZH.md)
+English | [中文](README_ZH.md)
 
 # Gaming GeForce + RTX Workstation Card in One Windows PC
 
@@ -16,12 +16,13 @@ Everything here was reproduced on real hardware:
 | | Card A | Card B |
 |---|---|---|
 | Model | NVIDIA GeForce RTX 4070 Ti Super | NVIDIA RTX 4000 Ada Generation (**HP OEM**) |
-| Silicon | AD103, 66 SM, 16 GB | AD104(*), 48 SM, 20 GB |
+| Silicon | AD103, 66 SM, 16 GB | AD104(\*), 48 SM, 20 GB |
 | Role | games, display output | CUDA, rendering, AI |
 | Slot | CPU PCIe x16 | chipset PCIe x4 |
 | Final driver | GeForce **621.14** | HP RTX Enterprise **621.14** |
 
-(*) Later discovery: According to GPU-Z, the core code name of this graphics card is AD103, not AD104. The following operations may not be applicable to the RTX 4000 Ada Generation of AD104.
+<del>(\*) Later discovery: According to GPU-Z, the core code name of this graphics card is AD103, not AD104. The following operations may not be applicable to the RTX 4000 Ada Generation of AD104.</del>
+(\*) Major discovery: In MSI Afterburner, this core is named AD104GL-A (the RTX 4070 Ti Super uses AD103-A); in AIDA64, it is named AD104GL. Based on the current evidence alone, this is sufficient to refute the claim that the core of the RTX 4000 Ada Generation is AD103.
 
 ---
 
